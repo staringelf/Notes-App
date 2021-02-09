@@ -1,10 +1,8 @@
 const getNotes = require('./notes.js');
 const yargs = require('yargs');
-const chalk = require('chalk');
 const notes = require('./notes.js');
 const { demandOption } = require('yargs');
 
-notes.getNotes();
 //Customize Version
 yargs.version('1.1.0');
 
